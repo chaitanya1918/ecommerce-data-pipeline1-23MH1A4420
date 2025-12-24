@@ -1,0 +1,52 @@
+# ============================
+# DATABASE CONFIGURATION
+# ============================
+database:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  name: ${DB_NAME}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+# ============================
+# DATA GENERATION PARAMETERS
+# ============================
+data_generation:
+  users:
+    record_count: 10000
+  products:
+    record_count: 2000
+  orders:
+    record_count: 30000
+
+  date_range:
+    start_date: "2023-01-01"
+    end_date: "2024-12-31"
+
+  distribution:
+    order_frequency: skewed
+    payment_method: weighted
+
+# ============================
+# PIPELINE CONFIGURATION
+# ============================
+pipeline:
+  batch_size: 1000
+  retry_attempts: 3
+  timeout_seconds: 30
+
+# ============================
+# LOGGING CONFIGURATION
+# ============================
+logging:
+  level: INFO
+  log_to_file: true
+  log_directory: logs/
+
+# ============================
+# BI TOOL CONFIGURATION
+# ============================
+bi_tool:
+  tool_name: tableau   # tableau | powerbi
+  warehouse_schema: warehouse
+  refresh_mode: manual
