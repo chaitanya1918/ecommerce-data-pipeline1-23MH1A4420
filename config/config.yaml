@@ -2,27 +2,27 @@
 # DATABASE CONFIGURATION
 # ============================
 database:
-  host: ${DB_HOST}
-  port: ${DB_PORT}
-  name: ${DB_NAME}
-  user: ${DB_USER}
-  password: ${DB_PASSWORD}
+  host: localhost
+  port: 5432
+  name: ecommerce_db
+  user: admin
+  password: Chaituram@198
+
+
 
 # ============================
 # DATA GENERATION PARAMETERS
 # ============================
 data_generation:
-  users:
-    record_count: 10000
+  customers:
+    record_count: 1000
   products:
-    record_count: 2000
+    record_count: 500
   orders:
-    record_count: 30000
-
+    record_count: 10000
   date_range:
     start_date: "2023-01-01"
     end_date: "2024-12-31"
-
   distribution:
     order_frequency: skewed
     payment_method: weighted

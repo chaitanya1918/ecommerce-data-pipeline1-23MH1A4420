@@ -1,0 +1,501 @@
+product_id,product_name,category,sub_category,price,cost,brand,stock_quantity,supplier_id
+PROD0001,While,Books,Exactly,914.32,713.67,Chambers-Morgan,205,SUP041
+PROD0002,Base,Electronics,Site,15733.65,10522.86,Ellis-Sosa,243,SUP041
+PROD0003,West,Books,Bank,249.35,192.39,"Hatfield, Brown and Mckay",98,SUP006
+PROD0004,Create,Sports,Between,4472.04,3005.3,Church Inc,334,SUP019
+PROD0005,People,Books,Go,1773.38,1183.74,"Johnson, Freeman and Kirby",375,SUP045
+PROD0006,Simple,Beauty,Very,5948.08,4130.65,King-Smith,237,SUP026
+PROD0007,All,Home & Kitchen,And,7288.39,4407.7,"Mccormick, Barnes and Jordan",186,SUP049
+PROD0008,Process,Home & Kitchen,Tonight,12727.99,8619.41,Le-Ryan,439,SUP040
+PROD0009,Common,Clothing,Yard,3948.61,2854.65,Sanchez Inc,183,SUP006
+PROD0010,Natural,Clothing,Always,1923.96,1432.75,Smith-Weber,162,SUP010
+PROD0011,Option,Clothing,Morning,1065.18,733.74,Moore-Church,393,SUP001
+PROD0012,Decide,Home & Kitchen,Exactly,1268.54,895.62,"Villanueva, Mendez and Nguyen",195,SUP028
+PROD0013,Tonight,Beauty,For,6086.91,4653.28,"Clark, Sanchez and Martinez",255,SUP011
+PROD0014,Raise,Clothing,Next,1444.21,1056.33,"Higgins, Hurley and Scott",170,SUP045
+PROD0015,Pm,Sports,Structure,2262.6,1740.14,"Wagner, Rice and Barry",57,SUP005
+PROD0016,Friend,Sports,Able,5014.74,3357.42,"Long, Shaffer and Anderson",349,SUP025
+PROD0017,Consumer,Electronics,Forward,43480.73,33819.01,Larsen-Bruce,332,SUP027
+PROD0018,Organization,Electronics,Ready,23662.8,15636.81,Carter Inc,454,SUP020
+PROD0019,Time,Sports,Treat,3472.71,2409.56,Martinez PLC,206,SUP016
+PROD0020,Away,Home & Kitchen,Business,10236.73,7534.14,Raymond PLC,480,SUP046
+PROD0021,Business,Home & Kitchen,Case,14077.92,11088.22,Porter Inc,22,SUP007
+PROD0022,Nation,Beauty,Maintain,1795.4,1524.97,"Hernandez, Jones and Norton",254,SUP004
+PROD0023,Expert,Electronics,Trip,10060.86,6618.08,Johnson-Blackburn,351,SUP050
+PROD0024,Inside,Electronics,Break,49326.02,31414.3,"Booker, Ashley and Glenn",415,SUP046
+PROD0025,Country,Books,Something,1996.92,1532.21,Ayers Ltd,162,SUP020
+PROD0026,Though,Electronics,House,20011.58,13096.33,"Greene, Shaffer and Carpenter",103,SUP045
+PROD0027,Might,Beauty,Rest,1565.73,1170.28,"Davidson, Miller and Mills",280,SUP050
+PROD0028,World,Electronics,Course,40855.67,26644.46,Parker-Lucero,67,SUP014
+PROD0029,Others,Books,Mention,921.54,729.08,Brown PLC,390,SUP018
+PROD0030,Go,Books,Traditional,1880.52,1573.57,Lang Ltd,452,SUP011
+PROD0031,Product,Books,Audience,1788.95,1100.59,Travis-Rogers,365,SUP033
+PROD0032,Walk,Beauty,Happy,6356.06,5262.21,Barton Ltd,158,SUP047
+PROD0033,Happen,Sports,Avoid,1533.23,1176.12,"Owens, Mooney and Bell",471,SUP008
+PROD0034,Partner,Sports,Suffer,5318.34,4441.78,"Reyes, Blackwell and Jenkins",201,SUP029
+PROD0035,Method,Clothing,Air,4698.2,2961.4,"Brown, Gibson and Elliott",68,SUP044
+PROD0036,Occur,Home & Kitchen,Employee,4358.91,3408.88,Tate Inc,199,SUP031
+PROD0037,Why,Sports,Property,11002.04,8466.23,"Curry, Romero and Morris",224,SUP042
+PROD0038,All,Beauty,Generation,760.96,522.95,Miller Inc,288,SUP011
+PROD0039,Section,Electronics,Budget,35501.15,25064.79,"Richards, Everett and Porter",201,SUP050
+PROD0040,Past,Sports,At,5380.04,4362.6,Soto-Jones,233,SUP026
+PROD0041,Per,Electronics,Everything,42918.0,31920.54,"Evans, Lane and Arnold",101,SUP005
+PROD0042,Half,Home & Kitchen,Organization,7769.61,5243.83,"Fisher, Carroll and Brown",41,SUP005
+PROD0043,Table,Home & Kitchen,Chair,11513.08,9483.27,Burns-Moore,87,SUP035
+PROD0044,Mention,Electronics,Cost,8847.95,7378.89,Mayer-Brown,246,SUP033
+PROD0045,Peace,Clothing,Trip,791.05,501.53,"Roberts, Shaw and Ramos",111,SUP037
+PROD0046,Remain,Electronics,Second,33942.78,27541.79,Thomas LLC,66,SUP030
+PROD0047,Along,Clothing,Catch,2736.25,1794.28,Fox Inc,213,SUP026
+PROD0048,Improve,Clothing,Little,2778.27,1825.53,Reed-Ellis,201,SUP006
+PROD0049,Information,Sports,Environment,2266.81,1770.77,Ward-Mcguire,108,SUP004
+PROD0050,Above,Books,Left,406.92,255.03,"Sandoval, Velez and Burns",85,SUP008
+PROD0051,Total,Beauty,Model,2328.47,1550.95,Alvarez Ltd,459,SUP035
+PROD0052,Something,Sports,Safe,11186.85,8815.95,Drake Inc,354,SUP037
+PROD0053,Several,Beauty,Time,4782.02,2948.49,Neal-Romero,140,SUP021
+PROD0054,Responsibility,Books,Wish,1763.18,1219.29,"Hartman, Jordan and Garcia",53,SUP016
+PROD0055,If,Sports,Successful,6367.99,4828.49,"English, Berry and Ellis",318,SUP003
+PROD0056,During,Sports,Better,2855.9,2025.8,Nelson and Sons,343,SUP041
+PROD0057,Fast,Books,Enter,1962.65,1610.1,"Sanders, Rojas and Harvey",148,SUP048
+PROD0058,Believe,Home & Kitchen,Head,12614.69,9975.56,Schmidt-Hernandez,66,SUP042
+PROD0059,Full,Electronics,Market,11621.79,7495.93,"Scott, Miller and Holmes",210,SUP026
+PROD0060,Change,Electronics,Must,31053.06,18972.77,Fisher PLC,304,SUP035
+PROD0061,Lawyer,Books,Simply,375.49,257.18,Gomez-Carter,16,SUP027
+PROD0062,Chair,Electronics,Type,23365.68,19158.14,Larson Group,79,SUP046
+PROD0063,Recent,Beauty,Response,4122.41,3332.51,"Solomon, Rose and Hill",335,SUP033
+PROD0064,Together,Books,Quite,1047.16,689.45,Ramirez-Lopez,172,SUP017
+PROD0065,Window,Clothing,Some,2935.76,2219.99,"Barnes, Cox and Phillips",306,SUP047
+PROD0066,Able,Electronics,Number,21161.12,14148.44,Valdez LLC,101,SUP038
+PROD0067,Picture,Clothing,Unit,3203.66,2493.24,Wright Inc,462,SUP005
+PROD0068,Hospital,Electronics,Suddenly,40980.84,27475.69,Garcia Inc,212,SUP036
+PROD0069,For,Clothing,Week,2218.71,1344.8,Holland-Mathews,40,SUP022
+PROD0070,Protect,Beauty,Letter,2911.98,2396.56,Rogers-White,377,SUP008
+PROD0071,Hard,Electronics,Nearly,48599.91,30082.76,Willis Ltd,176,SUP027
+PROD0072,With,Sports,None,8421.98,5148.6,Soto Group,417,SUP031
+PROD0073,Traditional,Clothing,Wonder,4503.31,3419.29,Murphy PLC,473,SUP001
+PROD0074,Nation,Books,Mission,1542.02,1269.9,Clark Ltd,208,SUP040
+PROD0075,South,Sports,Shake,6185.66,4860.26,Blanchard PLC,190,SUP041
+PROD0076,Certain,Electronics,Statement,26023.12,18475.0,Stokes-Torres,481,SUP036
+PROD0077,Action,Beauty,Minute,5198.23,3903.8,Jones Inc,267,SUP007
+PROD0078,Best,Books,Medical,513.71,430.25,Butler PLC,373,SUP003
+PROD0079,Account,Home & Kitchen,Involve,7728.37,5440.13,Sanchez and Sons,496,SUP027
+PROD0080,Around,Clothing,For,3047.03,2072.69,Guerra-Robles,204,SUP010
+PROD0081,Skill,Clothing,Available,3018.55,2491.13,Ochoa LLC,389,SUP046
+PROD0082,Look,Sports,Race,2220.24,1791.38,Sherman-Schultz,374,SUP035
+PROD0083,Receive,Beauty,Wife,5804.53,4229.58,"Berger, Hickman and Johnson",171,SUP008
+PROD0084,Treatment,Clothing,Between,2393.86,1817.58,Anderson-Stone,112,SUP047
+PROD0085,Someone,Books,Rate,1902.8,1387.98,Turner LLC,87,SUP028
+PROD0086,Public,Sports,In,2567.9,1945.87,"Williams, Gaines and Vargas",139,SUP030
+PROD0087,Out,Electronics,Clear,16385.47,12618.01,"Campos, Holmes and Newman",249,SUP002
+PROD0088,Social,Beauty,Special,2856.07,2258.96,Rhodes-Brown,437,SUP031
+PROD0089,Feeling,Beauty,Never,4664.1,2850.69,Lopez Ltd,93,SUP047
+PROD0090,Training,Beauty,Catch,3454.74,2240.89,Schroeder and Sons,215,SUP011
+PROD0091,Benefit,Beauty,Play,1587.38,1126.09,Sanchez Inc,120,SUP036
+PROD0092,Fine,Sports,Once,4993.21,3444.31,Diaz-Lee,253,SUP011
+PROD0093,Rest,Books,Particular,1214.24,1015.16,Gilmore Group,89,SUP048
+PROD0094,Test,Sports,Have,8730.27,6727.3,Lambert and Sons,356,SUP037
+PROD0095,Question,Clothing,Require,2305.95,1473.99,Cook-Wagner,93,SUP023
+PROD0096,Much,Beauty,Page,7145.32,4636.92,Lawrence-Anderson,112,SUP050
+PROD0097,Today,Sports,Exist,4397.82,3122.83,Hill Ltd,491,SUP028
+PROD0098,Give,Books,After,856.97,544.66,Brown-Arellano,54,SUP006
+PROD0099,Human,Home & Kitchen,Ground,1277.07,1039.9,Hensley Inc,65,SUP021
+PROD0100,Try,Clothing,Debate,2819.49,1993.8,"Farley, Adams and Williams",254,SUP046
+PROD0101,Religious,Electronics,Collection,39406.54,28118.15,Patterson-Byrd,207,SUP029
+PROD0102,Forward,Sports,Marriage,11932.81,8237.07,Marsh Ltd,70,SUP027
+PROD0103,Nation,Electronics,Executive,13313.38,8156.36,Wiggins Ltd,424,SUP039
+PROD0104,Wait,Sports,Part,9753.41,6434.59,Wolf-Pruitt,414,SUP029
+PROD0105,Foot,Home & Kitchen,Perform,5681.99,4530.23,"Wolf, Malone and Lee",392,SUP019
+PROD0106,List,Beauty,On,4300.71,2828.28,"Cohen, Rios and Johns",452,SUP009
+PROD0107,Fill,Sports,Unit,7695.86,5745.33,Le Inc,218,SUP001
+PROD0108,Music,Home & Kitchen,Side,4958.17,3518.48,Huber PLC,106,SUP039
+PROD0109,Fact,Electronics,Interest,8740.28,6543.14,"Johnson, Petty and Haney",208,SUP026
+PROD0110,Test,Clothing,Evidence,4830.38,3104.16,"Sanchez, Wells and Alvarado",245,SUP007
+PROD0111,Recent,Home & Kitchen,Social,10218.93,7215.74,English LLC,384,SUP031
+PROD0112,Represent,Clothing,Someone,1885.76,1222.9,Barnes-Webb,162,SUP019
+PROD0113,Can,Electronics,Small,20501.13,15270.28,Spencer PLC,15,SUP001
+PROD0114,Return,Beauty,Trial,3134.3,2491.83,"Roach, Dixon and Rodriguez",208,SUP037
+PROD0115,Rise,Sports,Contain,10757.46,8242.22,Lynch-Mendoza,430,SUP046
+PROD0116,Should,Clothing,Dinner,3186.12,2371.46,"King, Norris and Rodriguez",462,SUP030
+PROD0117,Particular,Books,Boy,749.69,563.47,Scott-Davis,243,SUP019
+PROD0118,Expert,Beauty,Goal,2221.15,1662.29,"Johnson, Rodriguez and Snyder",97,SUP020
+PROD0119,War,Books,When,1787.32,1204.72,Sanders LLC,191,SUP040
+PROD0120,Change,Electronics,Town,45759.06,31495.84,"Murphy, Davidson and Dean",283,SUP019
+PROD0121,Member,Books,Drug,1900.87,1381.84,"Smith, Flores and Jackson",468,SUP027
+PROD0122,Service,Beauty,Could,3772.07,3179.83,Davis PLC,246,SUP039
+PROD0123,Maintain,Clothing,Claim,535.44,452.21,Baldwin-Warren,397,SUP045
+PROD0124,Modern,Beauty,Dog,7821.86,6605.54,Arnold Ltd,458,SUP040
+PROD0125,Information,Books,Upon,1396.39,1088.59,Freeman and Sons,277,SUP040
+PROD0126,Newspaper,Electronics,Each,17452.35,11978.39,George and Sons,363,SUP047
+PROD0127,Card,Home & Kitchen,Among,3271.03,2746.23,Miller Group,185,SUP021
+PROD0128,Poor,Books,Exactly,857.98,607.1,Jones-Wheeler,409,SUP005
+PROD0129,Fine,Electronics,Possible,37279.3,29678.04,"Sullivan, Wall and Simmons",258,SUP043
+PROD0130,Prove,Electronics,Always,33948.68,27872.77,Taylor-Calderon,92,SUP025
+PROD0131,Drop,Books,Center,1447.86,986.31,Bryant-Collins,361,SUP019
+PROD0132,Will,Home & Kitchen,Eat,8101.22,5716.31,"Lee, Wilson and Diaz",87,SUP033
+PROD0133,End,Clothing,Without,3468.82,2804.1,"Willis, Gilbert and Pham",348,SUP009
+PROD0134,Range,Clothing,Turn,4196.29,2727.15,Parker-Long,51,SUP046
+PROD0135,Response,Home & Kitchen,We,9981.38,6466.5,"Thomas, Williams and Ford",487,SUP021
+PROD0136,Above,Books,Deep,216.43,141.0,Sheppard-Walters,164,SUP007
+PROD0137,Operation,Sports,Others,4736.36,3638.98,"Perez, Spencer and Norris",318,SUP019
+PROD0138,Feel,Home & Kitchen,Nature,14882.14,11213.25,"Nelson, Lawrence and Daniel",233,SUP046
+PROD0139,Culture,Clothing,Local,3479.66,2582.46,Ramirez LLC,295,SUP036
+PROD0140,More,Home & Kitchen,Gas,3569.23,2152.9,Perez-Roth,127,SUP001
+PROD0141,Morning,Electronics,Half,17109.74,13259.33,Krueger-Roy,481,SUP009
+PROD0142,Fear,Books,Rest,1698.72,1267.26,Snyder-Taylor,303,SUP023
+PROD0143,Add,Books,Heavy,742.25,557.97,"Ramos, Cooke and Tran",152,SUP010
+PROD0144,Affect,Beauty,Party,4714.68,3577.73,Gibbs Group,466,SUP043
+PROD0145,Reveal,Electronics,Particular,12101.72,8500.66,Moss PLC,378,SUP046
+PROD0146,High,Electronics,Civil,6181.46,4960.68,Williams and Sons,381,SUP015
+PROD0147,Marriage,Beauty,First,2339.66,1929.82,"Rivas, Wolfe and Baker",114,SUP008
+PROD0148,Perform,Books,End,1777.7,1127.47,"Padilla, Taylor and Meza",95,SUP006
+PROD0149,Brother,Clothing,Together,635.12,509.19,Hardy-Farley,238,SUP019
+PROD0150,Task,Sports,Water,6038.62,4381.17,Weaver PLC,325,SUP004
+PROD0151,Impact,Electronics,Week,43565.03,34574.99,"Wilson, Hernandez and Bradley",340,SUP040
+PROD0152,Material,Beauty,Expect,4795.24,3527.81,Bennett-Cox,351,SUP047
+PROD0153,Other,Books,Subject,1848.75,1250.85,Ramirez-Gutierrez,415,SUP004
+PROD0154,Child,Beauty,Career,3952.05,2577.11,Leon-Padilla,379,SUP005
+PROD0155,Ask,Home & Kitchen,Writer,9606.35,5872.83,French Ltd,344,SUP014
+PROD0156,Expert,Electronics,Thousand,22611.33,18285.64,Jones Inc,209,SUP003
+PROD0157,Industry,Beauty,Seek,7515.16,5673.67,Pena Ltd,315,SUP021
+PROD0158,Daughter,Clothing,Medical,1122.39,869.42,Lopez-Williams,423,SUP028
+PROD0159,Just,Beauty,Government,4086.61,3013.48,Vasquez-Harper,267,SUP020
+PROD0160,Word,Electronics,Yes,14268.26,11220.11,Rodriguez-Rodriguez,407,SUP031
+PROD0161,Ability,Clothing,Including,4823.14,3208.06,Ochoa Inc,209,SUP048
+PROD0162,Owner,Books,Clear,393.69,245.37,Mclaughlin-Green,245,SUP009
+PROD0163,Two,Sports,Security,8293.38,7040.17,"Atkinson, Tucker and Martinez",46,SUP012
+PROD0164,Activity,Beauty,Many,3399.9,2572.45,Mcgee-Silva,432,SUP050
+PROD0165,Level,Sports,Born,1644.02,1051.63,Harrell LLC,47,SUP023
+PROD0166,Night,Electronics,Return,45595.3,35367.24,"Vasquez, Johnson and Martinez",309,SUP008
+PROD0167,Tv,Sports,Without,2533.3,2123.55,Thompson-Perez,68,SUP002
+PROD0168,Well,Beauty,News,1835.47,1523.0,Anderson-Martin,279,SUP023
+PROD0169,Serious,Home & Kitchen,Ten,5816.84,4714.69,Dudley Ltd,360,SUP022
+PROD0170,Involve,Beauty,Military,5602.22,4398.9,Pearson LLC,298,SUP016
+PROD0171,Congress,Beauty,Grow,1263.57,817.1,Cox-Acevedo,32,SUP008
+PROD0172,Herself,Electronics,Race,15461.44,12321.58,Galloway PLC,109,SUP045
+PROD0173,On,Home & Kitchen,Much,3626.89,2488.56,Mejia Group,104,SUP022
+PROD0174,Open,Sports,Western,10384.2,8105.87,Johnson Group,374,SUP008
+PROD0175,Again,Clothing,Seven,1351.3,1103.14,Huynh-Clements,437,SUP035
+PROD0176,Under,Electronics,Air,27893.91,17750.09,Wood PLC,406,SUP004
+PROD0177,Easy,Beauty,Then,4371.09,3190.15,Martinez PLC,208,SUP047
+PROD0178,Action,Home & Kitchen,Police,6778.51,5689.42,Bates LLC,130,SUP034
+PROD0179,Couple,Home & Kitchen,Over,12399.51,9228.02,Randall-Pearson,133,SUP030
+PROD0180,Space,Sports,Occur,7118.78,4670.47,Anderson Inc,210,SUP009
+PROD0181,Four,Electronics,Issue,30868.53,23261.47,"Hernandez, Price and Jones",335,SUP025
+PROD0182,Star,Home & Kitchen,Tend,9762.47,7029.99,Bell Inc,154,SUP048
+PROD0183,Lay,Books,Occur,1494.88,1095.49,"Austin, Reynolds and Velasquez",434,SUP016
+PROD0184,Power,Home & Kitchen,Surface,9909.54,6613.11,Stephenson-Miles,147,SUP004
+PROD0185,Edge,Home & Kitchen,Whatever,5619.81,4743.88,Jordan PLC,218,SUP005
+PROD0186,Foreign,Books,Fall,1427.01,877.13,Garcia-Rodriguez,474,SUP026
+PROD0187,Camera,Sports,Go,7901.77,6573.1,Cummings-Patrick,79,SUP048
+PROD0188,Than,Books,Kitchen,1970.05,1244.22,"Velez, Rodriguez and Horton",193,SUP032
+PROD0189,Bed,Books,Whatever,1420.12,1151.68,Fox and Sons,497,SUP016
+PROD0190,Surface,Clothing,Artist,776.83,637.03,"Ruiz, Olson and Cunningham",230,SUP046
+PROD0191,Speech,Sports,After,11009.97,8869.16,"Wright, Kelley and Ramirez",257,SUP022
+PROD0192,Too,Electronics,General,18290.62,11768.09,Fletcher Group,293,SUP001
+PROD0193,Run,Home & Kitchen,Factor,3292.51,2040.06,Cabrera PLC,457,SUP018
+PROD0194,Right,Electronics,Price,41191.67,27061.04,Gomez-Le,407,SUP024
+PROD0195,Cost,Sports,Project,11087.52,7179.59,"Wright, Chang and Hernandez",300,SUP025
+PROD0196,Discussion,Beauty,Three,1482.09,1212.26,"Palmer, Williamson and Martinez",442,SUP046
+PROD0197,Challenge,Beauty,Word,409.75,312.71,Williams-Flowers,478,SUP044
+PROD0198,Son,Clothing,Near,2687.63,1672.69,Garrett PLC,149,SUP005
+PROD0199,Sport,Beauty,Listen,5931.93,4183.28,Andrews and Sons,350,SUP046
+PROD0200,Success,Books,Might,822.14,504.23,Shaw-Graham,118,SUP016
+PROD0201,Available,Clothing,Sign,2701.31,2131.05,Fox-Murphy,343,SUP017
+PROD0202,Opportunity,Books,They,1821.81,1467.83,Hampton-Boyd,314,SUP015
+PROD0203,Behind,Books,Scene,1855.28,1147.45,Austin LLC,424,SUP027
+PROD0204,Most,Home & Kitchen,Discuss,4944.01,3908.5,"Carter, Mooney and Davis",424,SUP021
+PROD0205,Maybe,Beauty,Significant,5161.08,4213.97,Alvarez LLC,400,SUP041
+PROD0206,Maybe,Clothing,Also,2982.95,1818.47,"Gilbert, Olson and Cervantes",79,SUP021
+PROD0207,Consider,Books,Nice,1062.38,847.08,Williams Ltd,13,SUP049
+PROD0208,Prevent,Electronics,Wall,8477.04,6667.82,Medina PLC,121,SUP007
+PROD0209,Resource,Home & Kitchen,In,11734.63,9263.81,Kim PLC,171,SUP031
+PROD0210,Dinner,Home & Kitchen,Teach,8298.76,5020.22,Wilson and Sons,39,SUP040
+PROD0211,Popular,Home & Kitchen,Office,10891.0,8325.81,Hancock-Lloyd,66,SUP020
+PROD0212,Course,Clothing,Unit,3078.38,2525.77,Moore-Singh,254,SUP036
+PROD0213,Least,Home & Kitchen,Performance,2894.94,2289.86,Franklin PLC,354,SUP016
+PROD0214,System,Sports,Subject,4310.66,2627.84,Roman-Martin,12,SUP022
+PROD0215,Inside,Sports,Fine,8816.6,5308.94,"Wiggins, Mendez and Stone",197,SUP038
+PROD0216,Relationship,Sports,Gas,1648.69,1211.78,Thomas LLC,296,SUP045
+PROD0217,Face,Home & Kitchen,Newspaper,2152.95,1584.69,Strickland-Brown,483,SUP019
+PROD0218,New,Books,Director,1755.72,1341.42,Stafford and Sons,429,SUP049
+PROD0219,High,Clothing,Believe,893.66,623.0,"Vasquez, Newman and Diaz",424,SUP009
+PROD0220,Often,Books,Summer,846.45,662.66,Brown-Irwin,163,SUP021
+PROD0221,Despite,Books,Congress,991.78,628.09,Anderson-Herrera,439,SUP035
+PROD0222,Girl,Electronics,Without,18516.81,15488.6,"Rowe, Martin and Wright",298,SUP028
+PROD0223,Area,Clothing,High,1814.15,1362.01,"Gilbert, Rivera and Curtis",253,SUP008
+PROD0224,Black,Sports,Try,8863.5,6029.05,Doyle-Love,178,SUP001
+PROD0225,Radio,Books,Hope,907.7,757.02,Gonzales-Gibbs,136,SUP048
+PROD0226,Responsibility,Books,Trial,1154.63,918.09,Thompson Ltd,187,SUP019
+PROD0227,Want,Sports,Matter,11654.59,8562.39,"Shaw, Proctor and Brown",194,SUP036
+PROD0228,True,Home & Kitchen,Task,10546.59,8027.89,Hoffman-Dennis,322,SUP032
+PROD0229,Position,Sports,Star,3313.55,2724.4,"Trujillo, Martin and Johnson",184,SUP027
+PROD0230,Central,Clothing,Energy,1063.25,764.84,Duffy LLC,23,SUP044
+PROD0231,Third,Clothing,Century,2092.88,1534.88,"Miller, Cochran and Mcdonald",393,SUP050
+PROD0232,Fast,Clothing,Learn,1604.6,1043.11,Boone-Moore,413,SUP020
+PROD0233,Despite,Home & Kitchen,Level,11905.49,9426.22,Shepard-Walker,355,SUP009
+PROD0234,Challenge,Home & Kitchen,Help,7148.51,5856.15,Gonzalez-Burke,124,SUP003
+PROD0235,Speak,Sports,People,8348.11,5741.52,Richardson-Nichols,381,SUP003
+PROD0236,Spend,Electronics,Nor,42765.61,29497.9,Gregory Inc,27,SUP014
+PROD0237,With,Beauty,Defense,7995.48,6143.34,Schaefer-Jones,186,SUP007
+PROD0238,Save,Home & Kitchen,Company,1411.58,1061.3,Reese Inc,37,SUP010
+PROD0239,Could,Clothing,Feeling,2177.22,1793.23,Stewart Inc,249,SUP003
+PROD0240,I,Electronics,Perhaps,31992.64,24728.86,Mcdaniel LLC,181,SUP036
+PROD0241,Food,Books,Expert,633.42,427.96,Scott Ltd,370,SUP043
+PROD0242,Ever,Sports,Time,7975.94,5821.7,"Hancock, Jackson and Ward",10,SUP049
+PROD0243,Then,Beauty,Simple,5335.58,3420.97,Lopez-Anderson,410,SUP033
+PROD0244,Expect,Books,Every,763.96,630.08,"Guerra, Green and Martinez",158,SUP002
+PROD0245,Cost,Beauty,Democrat,3735.89,3147.01,Gonzalez Group,308,SUP033
+PROD0246,South,Beauty,Sing,4152.92,3490.63,Swanson-Compton,359,SUP013
+PROD0247,Natural,Beauty,Age,6568.74,4465.69,Peterson-Jones,396,SUP016
+PROD0248,Stock,Electronics,White,46790.27,39531.81,Robertson-Griffin,495,SUP018
+PROD0249,Me,Sports,Player,11171.12,6925.1,Berger-Cruz,341,SUP023
+PROD0250,Country,Sports,Consider,2851.5,1864.7,"Watkins, Larson and Fuentes",282,SUP002
+PROD0251,Company,Clothing,Everybody,4515.64,3207.9,Thompson Ltd,471,SUP021
+PROD0252,Treat,Home & Kitchen,Stock,8124.23,6013.75,Myers LLC,118,SUP002
+PROD0253,I,Electronics,At,23944.4,18874.05,Mcconnell Group,431,SUP014
+PROD0254,Professional,Electronics,Also,35774.68,24813.59,Hodge PLC,112,SUP009
+PROD0255,Sit,Books,Vote,1074.05,736.4,"Beltran, Rogers and Williams",463,SUP002
+PROD0256,Move,Home & Kitchen,Letter,7816.62,4997.71,"Brown, Coleman and Thompson",408,SUP020
+PROD0257,Gun,Sports,Sort,4538.98,3728.13,Weber-King,12,SUP012
+PROD0258,Bill,Electronics,Produce,33658.44,22105.92,Mckee-Pena,483,SUP028
+PROD0259,Open,Electronics,Whose,33309.92,20720.4,"Haley, Potter and Dixon",130,SUP033
+PROD0260,Join,Sports,Serious,4080.52,2781.9,Hurley-Padilla,175,SUP028
+PROD0261,Question,Sports,At,11864.92,7397.95,"Velez, Stanley and Williams",43,SUP024
+PROD0262,What,Beauty,Nor,7936.86,5290.75,"Hart, Reeves and Brown",253,SUP037
+PROD0263,Special,Electronics,Car,35746.2,30246.06,Lawrence Group,405,SUP018
+PROD0264,State,Books,Some,251.83,186.75,Carter and Sons,109,SUP023
+PROD0265,Glass,Sports,Thing,647.11,499.48,Cline Group,285,SUP023
+PROD0266,Exist,Beauty,Expect,7734.94,5503.72,Valdez-Smith,452,SUP026
+PROD0267,Rise,Electronics,Tonight,14732.88,12223.38,Meyers LLC,391,SUP043
+PROD0268,Yeah,Electronics,Simply,5440.2,4548.45,"Johnson, Brown and Colon",321,SUP047
+PROD0269,School,Beauty,We,5195.11,3652.18,Brooks-Bishop,465,SUP031
+PROD0270,Exactly,Beauty,Quickly,7838.46,6435.37,"Curry, Hall and Alexander",467,SUP005
+PROD0271,Participant,Books,Me,1449.81,1193.43,"Torres, Vaughn and Alvarez",84,SUP015
+PROD0272,Quite,Sports,Center,6294.86,4278.74,"Clark, Cowan and Kelly",303,SUP014
+PROD0273,Apply,Home & Kitchen,Seven,8866.4,5474.13,Crawford Inc,368,SUP033
+PROD0274,Use,Beauty,Agent,2023.89,1269.41,Martinez LLC,90,SUP033
+PROD0275,Sport,Electronics,I,24779.12,17010.63,"Fields, Chen and Rogers",31,SUP018
+PROD0276,Fine,Electronics,Face,31299.25,18945.15,Baker Group,335,SUP004
+PROD0277,Agreement,Clothing,Somebody,3441.21,2349.3,"Johnson, Cook and Spencer",378,SUP032
+PROD0278,Anything,Clothing,While,1962.04,1582.42,"Cole, Cobb and Owen",36,SUP029
+PROD0279,Too,Books,Speak,1936.77,1333.64,Rodriguez and Sons,376,SUP013
+PROD0280,Ball,Home & Kitchen,Table,9674.33,8184.99,Davis-Martinez,154,SUP049
+PROD0281,Treat,Electronics,Skill,33492.12,27615.67,Munoz-Rich,24,SUP031
+PROD0282,Serious,Books,Office,1002.2,808.63,Craig and Sons,312,SUP028
+PROD0283,Hard,Home & Kitchen,Speak,7899.19,5334.01,Hall-Kirby,144,SUP014
+PROD0284,Crime,Books,Budget,1855.46,1253.72,Chandler-Lee,16,SUP032
+PROD0285,Author,Home & Kitchen,Term,9703.1,7493.67,Cole-Fletcher,166,SUP030
+PROD0286,Firm,Electronics,Bank,20329.13,16437.7,"Mann, Garcia and Ortega",23,SUP046
+PROD0287,Enter,Clothing,Stop,3932.67,2784.6,Hobbs Group,116,SUP011
+PROD0288,Letter,Clothing,Ability,2092.52,1584.57,Wolfe Inc,40,SUP041
+PROD0289,Wish,Home & Kitchen,Close,10987.47,8536.68,"Martinez, Garrison and Castillo",279,SUP036
+PROD0290,Just,Books,Economic,1711.65,1105.66,"Kim, Vasquez and Key",470,SUP040
+PROD0291,Page,Clothing,Food,603.48,398.96,Graves PLC,217,SUP002
+PROD0292,Letter,Electronics,However,22152.42,16996.22,"Gay, Stevens and Andrews",261,SUP032
+PROD0293,Dinner,Electronics,Power,29110.47,22869.53,"Hughes, Roberts and Ponce",283,SUP028
+PROD0294,Agree,Home & Kitchen,Art,5011.33,3996.17,"Schroeder, Griffith and Thomas",371,SUP034
+PROD0295,Seat,Sports,Try,5896.16,3577.5,"Washington, Jackson and Webb",316,SUP013
+PROD0296,Wonder,Home & Kitchen,Her,10844.39,8476.06,Jackson and Sons,142,SUP043
+PROD0297,Book,Clothing,College,4019.66,3281.96,Ramsey-Robinson,13,SUP013
+PROD0298,Sell,Books,Nearly,234.18,177.41,Mathis-Nash,465,SUP028
+PROD0299,Natural,Home & Kitchen,Might,14010.95,10328.36,Flores Group,337,SUP032
+PROD0300,Poor,Clothing,Offer,2378.91,1842.58,"Miller, Miller and Forbes",375,SUP006
+PROD0301,Real,Clothing,About,1394.44,1174.55,Farrell Group,401,SUP014
+PROD0302,Baby,Home & Kitchen,Together,5659.0,3688.48,"Wilson, Bradley and Perez",72,SUP013
+PROD0303,Face,Home & Kitchen,Out,8557.12,5268.84,Madden PLC,202,SUP005
+PROD0304,Although,Electronics,Friend,40489.4,24644.78,Barajas PLC,130,SUP004
+PROD0305,Production,Sports,Star,2970.56,1935.81,Matthews-Schroeder,433,SUP048
+PROD0306,Ball,Sports,May,7641.19,5176.65,"Hernandez, Morris and Rich",115,SUP004
+PROD0307,Artist,Electronics,People,29584.27,19545.42,"Smith, Williams and Mcguire",93,SUP048
+PROD0308,Nation,Beauty,Movie,5197.62,3722.6,Wallace LLC,453,SUP045
+PROD0309,Finish,Sports,Only,6380.13,4421.56,Green Ltd,108,SUP037
+PROD0310,Town,Home & Kitchen,Late,6163.54,4034.77,Good PLC,315,SUP050
+PROD0311,Same,Books,Fact,1196.83,932.51,Cole-Smith,465,SUP039
+PROD0312,View,Home & Kitchen,Resource,6239.25,5068.34,"Phillips, Hartman and Oconnor",22,SUP044
+PROD0313,Glass,Books,Society,437.01,296.05,"Colon, Johnson and Gonzalez",436,SUP041
+PROD0314,Stage,Clothing,Fund,4436.72,3758.44,"Rodriguez, Davis and Gray",344,SUP010
+PROD0315,Interest,Clothing,Religious,4349.46,2788.06,Carey Group,129,SUP035
+PROD0316,Set,Beauty,Impact,3724.04,3149.12,"Adams, Golden and Williams",101,SUP048
+PROD0317,Market,Beauty,World,3509.07,2892.23,Carey Group,120,SUP029
+PROD0318,Place,Sports,Reduce,9462.16,7973.11,Mahoney-Werner,63,SUP050
+PROD0319,Government,Sports,Organization,8912.16,7182.21,"Leblanc, Mejia and Smith",267,SUP007
+PROD0320,Remember,Beauty,Thank,1675.71,1313.79,Parks Ltd,104,SUP036
+PROD0321,Themselves,Clothing,Into,2743.15,2265.16,Perkins Inc,272,SUP020
+PROD0322,Many,Home & Kitchen,Serious,2854.55,2351.18,Torres-Jones,79,SUP031
+PROD0323,Test,Sports,Could,2600.78,1599.44,Evans-David,93,SUP015
+PROD0324,Group,Sports,Leader,4356.74,3287.54,Franklin-Richards,62,SUP033
+PROD0325,Blue,Sports,Task,4744.37,3359.97,Hoffman-Steele,136,SUP014
+PROD0326,Subject,Electronics,Phone,7234.92,5498.28,"Tucker, Morales and Nelson",292,SUP044
+PROD0327,Item,Books,Maybe,1409.63,1111.84,Barr Inc,265,SUP013
+PROD0328,Force,Beauty,Mr,3730.64,3024.13,Moran-Thompson,324,SUP016
+PROD0329,Tonight,Books,Job,369.51,240.04,Bass Group,45,SUP006
+PROD0330,Enough,Sports,Late,7916.65,5555.86,Thomas-Hernandez,430,SUP042
+PROD0331,Indeed,Beauty,Particularly,2282.86,1598.63,Ryan-Romero,334,SUP023
+PROD0332,Open,Books,Federal,284.61,237.15,Blanchard LLC,131,SUP026
+PROD0333,Character,Sports,Against,9750.11,6612.98,Ramirez-Boyd,206,SUP010
+PROD0334,Owner,Beauty,Movie,7466.18,5498.68,"Glenn, Kaufman and Spence",352,SUP035
+PROD0335,Beyond,Clothing,Box,2641.17,1692.66,Wright-Stout,170,SUP026
+PROD0336,Meet,Home & Kitchen,Beat,10203.3,8242.59,"Williams, Chang and Woods",399,SUP016
+PROD0337,Admit,Books,Human,1201.08,932.99,Ward Inc,200,SUP048
+PROD0338,Wonder,Sports,Behavior,1641.44,1007.57,Perry Group,265,SUP049
+PROD0339,Role,Home & Kitchen,Effect,3265.37,2389.48,Anderson-Franco,326,SUP050
+PROD0340,Order,Beauty,Shake,7404.37,5781.74,Clark-Burnett,485,SUP045
+PROD0341,Young,Electronics,Agree,41958.66,31945.95,Burton-Castillo,59,SUP008
+PROD0342,Base,Home & Kitchen,Though,3609.4,2532.36,"Wilcox, Brady and Curry",100,SUP050
+PROD0343,Security,Clothing,Network,1435.34,960.18,Gibson LLC,359,SUP006
+PROD0344,Even,Books,Card,657.52,430.91,Jordan and Sons,479,SUP044
+PROD0345,Then,Books,Take,1091.9,683.64,"Gordon, Stephens and Best",53,SUP005
+PROD0346,Attention,Home & Kitchen,Development,14693.74,10026.12,Martinez-Gonzalez,191,SUP019
+PROD0347,Through,Books,The,1448.86,924.99,"Brewer, Chambers and Parker",160,SUP025
+PROD0348,Wrong,Books,Establish,1320.37,1015.78,Bradley PLC,317,SUP029
+PROD0349,Community,Sports,Wish,671.55,504.41,"Jackson, Hartman and Henson",426,SUP009
+PROD0350,Weight,Books,While,662.64,511.98,"Clark, Davis and Reynolds",22,SUP017
+PROD0351,Employee,Beauty,Sound,6867.66,5058.16,Gregory Group,483,SUP009
+PROD0352,See,Beauty,Especially,3658.73,2241.92,"Mcmahon, Robinson and Jimenez",335,SUP007
+PROD0353,Unit,Clothing,Share,1104.77,905.28,Lee-Miller,339,SUP050
+PROD0354,Material,Electronics,Training,12332.26,10137.79,"Brennan, Watson and Torres",155,SUP025
+PROD0355,Throughout,Electronics,Create,27361.8,16602.67,Fitzgerald PLC,224,SUP005
+PROD0356,Find,Home & Kitchen,Nearly,8680.22,6064.45,"Scott, Hayden and Cervantes",87,SUP028
+PROD0357,Eight,Clothing,Garden,3362.05,2106.4,Hebert Inc,95,SUP035
+PROD0358,Safe,Sports,Stock,11221.38,8947.08,Greer Inc,330,SUP002
+PROD0359,Man,Home & Kitchen,Add,4470.25,3748.46,"Johnson, Cruz and Reid",115,SUP045
+PROD0360,Ground,Clothing,Son,4855.03,3983.06,Williams-Carter,132,SUP001
+PROD0361,Receive,Sports,Fund,8992.52,7053.58,Johnson Ltd,380,SUP008
+PROD0362,Choice,Clothing,Here,1898.89,1307.53,Hunt-Wilkinson,455,SUP001
+PROD0363,Ahead,Books,Become,1744.85,1091.16,Wilson Group,267,SUP036
+PROD0364,Bed,Home & Kitchen,Purpose,1727.01,1164.28,Wood PLC,143,SUP018
+PROD0365,Question,Beauty,Buy,2469.45,2036.78,Lee-Adams,305,SUP024
+PROD0366,Happy,Home & Kitchen,After,10675.33,7421.24,Lewis-Peterson,185,SUP015
+PROD0367,Generation,Beauty,My,5772.15,3806.94,"Becker, Flores and Ramos",25,SUP016
+PROD0368,Grow,Electronics,Within,42645.12,26245.07,"Davenport, Maddox and Thompson",152,SUP013
+PROD0369,Right,Sports,Area,7131.27,4986.72,Gonzalez-Melton,314,SUP012
+PROD0370,Police,Clothing,Say,3065.02,2513.96,Walker-Burke,472,SUP021
+PROD0371,Throw,Electronics,Wrong,43719.57,28510.66,"Gibbs, Becker and Flores",433,SUP008
+PROD0372,Size,Sports,Ten,4769.16,3069.12,Myers-Miller,45,SUP011
+PROD0373,Join,Home & Kitchen,Task,4209.63,3030.13,"Mendoza, Wallace and Powell",344,SUP015
+PROD0374,Yeah,Books,Detail,1957.32,1457.95,"Levy, Nunez and Holt",51,SUP012
+PROD0375,Day,Home & Kitchen,Give,11077.4,6720.83,Lee-Galvan,475,SUP031
+PROD0376,Many,Sports,Direction,11084.32,8554.71,"Mitchell, Miller and Boyd",127,SUP029
+PROD0377,Some,Clothing,Skill,1846.76,1557.71,Martinez LLC,232,SUP001
+PROD0378,History,Books,Enjoy,902.7,578.48,"Bowen, Gates and Marsh",392,SUP046
+PROD0379,Benefit,Clothing,Likely,1804.01,1262.21,Clements and Sons,185,SUP039
+PROD0380,Firm,Home & Kitchen,Town,11630.8,9098.1,Welch and Sons,144,SUP027
+PROD0381,Carry,Sports,Ten,6847.72,5574.58,Martinez-Holt,328,SUP010
+PROD0382,Protect,Home & Kitchen,Away,14083.56,11028.57,Johnston-Henderson,200,SUP040
+PROD0383,Wide,Clothing,Either,713.14,438.77,"Brown, Mccormick and Miller",382,SUP025
+PROD0384,Top,Books,Forward,809.55,517.13,Young-Hernandez,211,SUP048
+PROD0385,Anyone,Clothing,Keep,889.45,734.54,"Sanders, Cowan and Smith",246,SUP006
+PROD0386,Money,Sports,Republican,10634.57,7014.46,"Ortiz, Flynn and Nelson",122,SUP021
+PROD0387,Fear,Beauty,Guy,6070.0,4696.74,Richardson LLC,48,SUP030
+PROD0388,Agency,Sports,Outside,4705.62,2974.1,"Johnson, Rangel and Shaw",86,SUP008
+PROD0389,Why,Home & Kitchen,Address,2862.02,1957.92,"Rich, Freeman and Smith",489,SUP013
+PROD0390,Figure,Clothing,Idea,3146.34,2052.28,"Thomas, Moore and Hodges",31,SUP027
+PROD0391,Century,Sports,Effort,7876.56,6262.8,Obrien-Williams,24,SUP002
+PROD0392,Sometimes,Books,Simply,1299.17,1061.92,Wallace Inc,209,SUP023
+PROD0393,Room,Clothing,Service,2313.57,1425.83,Sanchez Inc,389,SUP029
+PROD0394,Leader,Sports,Ability,5875.71,4303.99,"Montgomery, Best and Walker",70,SUP047
+PROD0395,Result,Electronics,Realize,40082.45,33334.31,"Ford, Burns and Hill",334,SUP049
+PROD0396,Window,Books,Seven,884.58,615.16,Hanna-Hudson,473,SUP033
+PROD0397,Member,Books,Kid,1634.89,1133.35,"Todd, Brown and Gilbert",319,SUP009
+PROD0398,Institution,Home & Kitchen,I,9663.34,5993.45,Holland LLC,430,SUP036
+PROD0399,Someone,Beauty,For,2066.51,1599.17,Zimmerman Ltd,74,SUP038
+PROD0400,Scene,Beauty,Garden,6719.66,5665.28,Mann Inc,68,SUP027
+PROD0401,Page,Sports,Party,9694.38,7004.14,Hopkins Ltd,466,SUP042
+PROD0402,Let,Sports,Consider,2671.93,1756.95,Wheeler-Cortez,435,SUP004
+PROD0403,Go,Electronics,Enjoy,29791.86,20104.83,"Rodriguez, Harrison and Tucker",167,SUP044
+PROD0404,Above,Sports,Environment,3092.92,2267.22,Reese-Long,309,SUP032
+PROD0405,Think,Home & Kitchen,Section,1518.53,1102.69,Fitzgerald PLC,412,SUP020
+PROD0406,White,Electronics,Whether,24825.57,17941.7,Smith Ltd,283,SUP034
+PROD0407,Body,Clothing,Stay,4211.79,2904.13,Archer Ltd,374,SUP031
+PROD0408,Industry,Electronics,Ready,16750.03,13976.68,"Gonzalez, Lutz and Johnson",25,SUP049
+PROD0409,Probably,Clothing,Project,1748.84,1061.67,Martinez-Mays,93,SUP047
+PROD0410,Respond,Home & Kitchen,Statement,14999.01,9763.16,Ellison Ltd,355,SUP011
+PROD0411,Green,Electronics,Across,20088.72,13489.51,Jones-Cordova,258,SUP005
+PROD0412,Tough,Books,Street,1283.27,781.64,Mason-Kirby,448,SUP013
+PROD0413,Court,Electronics,Establish,28696.81,24067.79,Ward Inc,103,SUP008
+PROD0414,Buy,Books,Off,1060.94,707.42,Kelly Group,459,SUP039
+PROD0415,Ok,Books,People,1114.41,835.18,"Schmidt, Bolton and Bean",263,SUP029
+PROD0416,Have,Electronics,Specific,28317.24,17939.3,"Collins, Jones and Duncan",104,SUP030
+PROD0417,Ago,Home & Kitchen,Address,9702.83,6495.97,Lane-Sutton,171,SUP017
+PROD0418,Pattern,Home & Kitchen,Art,14630.94,10433.14,Parker-Butler,108,SUP017
+PROD0419,Close,Home & Kitchen,Understand,2235.06,1489.13,Johnson-Payne,374,SUP040
+PROD0420,Right,Books,Song,1040.53,754.9,"Johnston, Perkins and Zuniga",325,SUP040
+PROD0421,Behind,Sports,Executive,4477.25,3127.55,Vaughan and Sons,76,SUP016
+PROD0422,Little,Home & Kitchen,Plan,5599.26,4369.26,"Wright, Hanson and Haney",209,SUP024
+PROD0423,Maintain,Beauty,Sing,2165.2,1510.47,Patterson-Pham,55,SUP033
+PROD0424,Her,Sports,Century,832.62,693.02,Gomez-Brown,10,SUP012
+PROD0425,Total,Clothing,Field,699.49,468.78,Strickland PLC,149,SUP047
+PROD0426,Identify,Clothing,Simply,3144.62,2127.54,"Tucker, Martinez and Michael",297,SUP033
+PROD0427,Science,Beauty,Yes,421.06,342.63,Walker LLC,343,SUP010
+PROD0428,Role,Sports,Budget,788.28,626.09,"Thomas, Chavez and Macdonald",104,SUP038
+PROD0429,Beyond,Clothing,Various,2627.29,1674.52,Ramos-Ramirez,483,SUP005
+PROD0430,Recent,Clothing,West,2491.77,2061.09,Joseph PLC,363,SUP025
+PROD0431,Chance,Books,Simple,334.98,231.88,Munoz-Ray,113,SUP034
+PROD0432,Special,Sports,Specific,11134.96,9164.79,"Klein, Sanchez and Chen",172,SUP048
+PROD0433,She,Books,Floor,714.84,440.47,Campos-Dean,129,SUP020
+PROD0434,Produce,Electronics,Five,25745.53,19212.8,Hall Group,462,SUP024
+PROD0435,Actually,Electronics,Join,5110.55,3363.73,Jordan PLC,278,SUP048
+PROD0436,Push,Home & Kitchen,Everything,5519.48,3886.86,Vaughn Inc,212,SUP026
+PROD0437,Special,Electronics,Professor,27782.24,17218.99,Lawrence-Parrish,181,SUP035
+PROD0438,Imagine,Electronics,Up,37591.33,23280.92,Hopkins Inc,197,SUP048
+PROD0439,When,Home & Kitchen,Candidate,2517.46,2017.43,"Barron, Carpenter and Walton",351,SUP029
+PROD0440,Hit,Sports,Firm,4382.12,3158.08,Ortega PLC,424,SUP045
+PROD0441,Cause,Electronics,Fire,5047.43,3650.64,"Miller, Burke and Johnson",213,SUP018
+PROD0442,Say,Sports,Visit,10760.35,7631.92,Greene LLC,217,SUP036
+PROD0443,After,Sports,Office,1735.81,1091.53,Banks-Harper,267,SUP032
+PROD0444,Knowledge,Home & Kitchen,State,7400.2,6140.29,Davis-Williams,195,SUP005
+PROD0445,Too,Books,Now,1111.82,703.56,Watson Inc,483,SUP025
+PROD0446,Country,Home & Kitchen,Reveal,14784.62,12165.51,Villarreal LLC,499,SUP029
+PROD0447,Value,Books,Whose,1301.26,791.22,"Rodriguez, Lee and Blevins",108,SUP007
+PROD0448,Success,Sports,Size,2777.53,1676.41,Henderson-Williams,114,SUP042
+PROD0449,Thought,Beauty,Rock,1600.67,970.55,Williams Ltd,380,SUP037
+PROD0450,Color,Home & Kitchen,Police,13737.37,9910.44,Rowland-Rivera,297,SUP046
+PROD0451,Deal,Clothing,Film,3622.28,2915.74,"Smith, Doyle and Sheppard",211,SUP007
+PROD0452,Draw,Electronics,Just,35289.3,25836.18,Johnson LLC,53,SUP040
+PROD0453,Five,Home & Kitchen,Against,10118.52,7980.64,Patton PLC,152,SUP021
+PROD0454,Onto,Beauty,Economy,6040.79,4657.9,Nguyen LLC,25,SUP005
+PROD0455,Issue,Beauty,Check,1581.43,1048.51,White-Gallegos,324,SUP004
+PROD0456,Street,Clothing,Themselves,4030.43,2971.78,Khan-Woodard,30,SUP020
+PROD0457,Campaign,Clothing,Box,1147.84,793.7,Carroll-Sandoval,51,SUP037
+PROD0458,Consider,Sports,Speech,7876.63,5528.86,Anderson and Sons,443,SUP027
+PROD0459,Subject,Electronics,Meeting,37411.07,31269.66,Higgins PLC,312,SUP001
+PROD0460,Computer,Books,Drop,553.37,393.54,"Evans, Hall and Wallace",323,SUP004
+PROD0461,Plant,Clothing,Near,3634.52,2437.66,Rogers PLC,240,SUP017
+PROD0462,Behind,Books,Congress,997.16,824.7,"Matthews, Singleton and Garcia",145,SUP018
+PROD0463,Organization,Electronics,Ok,15941.61,11681.1,Lee Inc,261,SUP046
+PROD0464,During,Electronics,For,14852.98,12209.47,"Davila, Davis and Macias",73,SUP029
+PROD0465,State,Beauty,Lose,5470.51,3392.46,Jackson LLC,472,SUP031
+PROD0466,Approach,Beauty,Difficult,3142.93,2404.98,Perkins-Miller,340,SUP007
+PROD0467,Media,Books,Size,1641.41,1099.38,Jimenez-Phillips,136,SUP020
+PROD0468,Plan,Sports,Wind,1166.21,802.51,Larson-Sellers,45,SUP002
+PROD0469,Between,Beauty,Well,1738.7,1252.57,Schmidt LLC,52,SUP047
+PROD0470,Couple,Beauty,Remember,7817.62,5643.43,Porter LLC,106,SUP027
+PROD0471,Structure,Clothing,The,2509.38,1824.52,"Higgins, Daniels and Heath",287,SUP008
+PROD0472,Party,Home & Kitchen,Edge,7799.95,5194.82,Davis Group,210,SUP044
+PROD0473,My,Clothing,Pass,4277.36,3497.0,Christensen LLC,24,SUP021
+PROD0474,Miss,Clothing,Shoulder,4734.71,3612.57,Rivera-Shelton,255,SUP027
+PROD0475,Decade,Books,Its,1110.89,914.69,White and Sons,272,SUP043
+PROD0476,Well,Clothing,Will,4154.01,3287.56,Thomas-Lewis,447,SUP010
+PROD0477,Look,Electronics,Than,19180.38,11743.07,"Ponce, Jordan and Rasmussen",413,SUP006
+PROD0478,History,Books,Eight,1232.34,912.93,Boone PLC,488,SUP005
+PROD0479,Worry,Clothing,Situation,2631.2,1833.7,Alvarez-Lee,430,SUP046
+PROD0480,Go,Electronics,Explain,31006.74,22164.44,Mosley and Sons,495,SUP044
+PROD0481,Drive,Books,Pattern,1528.48,1295.51,Davidson-Medina,455,SUP026
+PROD0482,Care,Clothing,Let,2660.61,1665.44,Gonzales-Jackson,286,SUP027
+PROD0483,Glass,Sports,Law,8758.49,5440.08,Lee Group,174,SUP035
+PROD0484,Few,Home & Kitchen,Full,12626.04,8853.7,Morrison and Sons,347,SUP039
+PROD0485,Grow,Clothing,Anything,3858.22,3137.32,Downs-Anderson,202,SUP028
+PROD0486,Management,Home & Kitchen,Prevent,8828.81,5470.9,Wells PLC,494,SUP008
+PROD0487,Month,Sports,Decade,10035.6,6443.73,Zimmerman-Morris,47,SUP020
+PROD0488,Conference,Sports,Shake,6410.26,4876.11,Cole Ltd,458,SUP034
+PROD0489,Leader,Electronics,Describe,49713.57,39476.72,Johnson Inc,332,SUP034
+PROD0490,Age,Sports,Scientist,3810.58,3086.95,Collins Ltd,54,SUP041
+PROD0491,Area,Beauty,Central,5870.68,3682.02,"Welch, Guerrero and Phillips",213,SUP002
+PROD0492,Experience,Clothing,Bank,4768.54,3040.86,Martinez and Sons,52,SUP020
+PROD0493,Decade,Clothing,Stop,3395.52,2309.27,Shaw-Ford,421,SUP033
+PROD0494,Though,Sports,Sell,2750.99,1915.08,Turner PLC,420,SUP025
+PROD0495,General,Home & Kitchen,Stuff,5189.02,3132.49,Zavala-Hill,246,SUP024
+PROD0496,Available,Beauty,Me,7984.19,5135.9,Lopez-Rios,432,SUP023
+PROD0497,State,Clothing,Before,4477.53,2881.23,"Garcia, Holt and Guerrero",247,SUP041
+PROD0498,Response,Electronics,Concern,18539.49,13446.67,"Gray, Harris and Perez",131,SUP016
+PROD0499,Degree,Sports,Pay,617.4,512.58,Payne and Sons,428,SUP001
+PROD0500,Particular,Sports,Day,11934.46,7216.43,Brown-Taylor,466,SUP029

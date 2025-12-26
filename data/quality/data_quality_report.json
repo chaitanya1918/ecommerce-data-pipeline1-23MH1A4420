@@ -1,0 +1,32 @@
+{
+    "check_timestamp": "2025-12-25T05:52:02.176544+00:00",
+    "checks_performed": {
+        "null_checks": {
+            "status": "passed",
+            "null_violations": 0,
+            "details": {
+                "customers.email": 0,
+                "products.price": 0,
+                "transactions.customer_id": 0
+            }
+        },
+        "duplicate_checks": {
+            "status": "passed",
+            "duplicates_found": 0
+        },
+        "referential_integrity": {
+            "status": "passed",
+            "orphan_records": 0
+        },
+        "data_consistency": {
+            "status": "passed",
+            "mismatches": 0
+        },
+        "business_rules": {
+            "status": "passed",
+            "violations": 0
+        }
+    },
+    "overall_quality_score": 100,
+    "quality_grade": "A"
+}
