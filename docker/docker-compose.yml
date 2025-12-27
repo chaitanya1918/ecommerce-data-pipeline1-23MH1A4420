@@ -10,7 +10,7 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ${PWD}/data:/data
+      - ../sql/ddl:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U admin"]
       interval: 10s
@@ -18,8 +18,10 @@ services:
       retries: 5
 
   pipeline:
-    image: docker-pipeline
     container_name: ecommerce_pipeline
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
     depends_on:
       postgres:
         condition: service_healthy
@@ -30,8 +32,8 @@ services:
       DB_USER: admin
       DB_PASSWORD: password
     volumes:
-      - ${PWD}/data:/app/data
-      - ${PWD}/logs:/app/logs
+      - ../data:/app/data
+      - ../logs:/app/logs
     command: ["tail", "-f", "/dev/null"]
 
 volumes:

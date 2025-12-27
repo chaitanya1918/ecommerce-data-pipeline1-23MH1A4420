@@ -212,7 +212,7 @@ def staging_to_production():
     with open(f"{SUMMARY_DIR}/transformation_summary.json", "w") as f:
         json.dump(summary, f, indent=4)
 
-    print(" Staging → Production transformation completed successfully")
+    print(" Staging  Production transformation completed successfully")
 
 # --------------------------------------------------
 if __name__ == "__main__":
