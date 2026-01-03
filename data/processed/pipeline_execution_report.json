@@ -1,0 +1,39 @@
+{
+    "pipeline_execution_id": "PIPE_20251228_160826",
+    "start_time": "2025-12-28T16:08:26.397132",
+    "steps_executed": {
+        "data_generation": {
+            "status": "success",
+            "duration_seconds": 4.61,
+            "retry_attempts": 0
+        },
+        "data_ingestion": {
+            "status": "success",
+            "duration_seconds": 1.61,
+            "retry_attempts": 0
+        },
+        "data_quality": {
+            "status": "success",
+            "duration_seconds": 0.48,
+            "retry_attempts": 0
+        },
+        "staging_to_production": {
+            "status": "success",
+            "duration_seconds": 0.43,
+            "retry_attempts": 0
+        },
+        "warehouse_load": {
+            "status": "failed",
+            "duration_seconds": 4.89,
+            "retry_attempts": 3,
+            "error_message": "Command '['python', 'scripts/transformation/load_warehouse.py']' returned non-zero exit status 1."
+        }
+    },
+    "errors": [
+        "warehouse_load failed"
+    ],
+    "warnings": [],
+    "status": "failed",
+    "end_time": "2025-12-28T16:08:38.436068",
+    "total_duration_seconds": 12.07
+}

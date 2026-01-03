@@ -1,0 +1,32 @@
+{
+  "generation_timestamp": "2025-12-27T06:32:46.815301",
+  "queries_executed": 5,
+  "query_results": {
+    "query1_top_products": {
+      "rows": 10,
+      "columns": 5,
+      "execution_time_ms": 359.29
+    },
+    "query2_monthly_trend": {
+      "rows": 0,
+      "columns": 6,
+      "execution_time_ms": 5.56
+    },
+    "query3_customer_segmentation": {
+      "rows": 2,
+      "columns": 4,
+      "execution_time_ms": 10.08
+    },
+    "query4_category_performance": {
+      "rows": 6,
+      "columns": 5,
+      "execution_time_ms": 16.15
+    },
+    "query5_payment_distribution": {
+      "rows": 5,
+      "columns": 5,
+      "execution_time_ms": 13.07
+    }
+  },
+  "total_execution_time_seconds": 0.42
+}

@@ -1,0 +1,46 @@
+{
+    "transformation_timestamp": "2025-12-27T06:32:45.079220+00:00",
+    "records_processed": {
+        "customers": {
+            "input": 1000,
+            "output": 1000,
+            "filtered": 0,
+            "rejected_reasons": {
+                "null_email": 0
+            }
+        },
+        "products": {
+            "input": 500,
+            "output": 500,
+            "filtered": 0,
+            "rejected_reasons": {
+                "invalid_price_or_cost": 0
+            }
+        },
+        "transactions": {
+            "input": "incremental",
+            "output": 10000,
+            "filtered": 0,
+            "rejected_reasons": {}
+        },
+        "transaction_items": {
+            "input": "incremental",
+            "output": 29908,
+            "filtered": 0,
+            "rejected_reasons": {}
+        }
+    },
+    "transformations_applied": [
+        "trim_text_fields",
+        "lowercase_emails",
+        "phone_standardization",
+        "price_precision_standardization",
+        "profit_margin_enrichment",
+        "price_category_enrichment",
+        "business_rule_filtering"
+    ],
+    "data_quality_post_transform": {
+        "null_violations": 0,
+        "constraint_violations": 0
+    }
+}
