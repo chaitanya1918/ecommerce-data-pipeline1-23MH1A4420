@@ -1,0 +1,2 @@
+2026-01-01 11:54:41,377 - ERROR - Ingestion failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+

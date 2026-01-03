@@ -1,0 +1,2 @@
+2025-12-25 12:56:26,679 - ERROR - Ingestion failed: connection to server at "postgres" (172.21.0.2), port 5432 failed: FATAL:  password authentication failed for user "admin"
+

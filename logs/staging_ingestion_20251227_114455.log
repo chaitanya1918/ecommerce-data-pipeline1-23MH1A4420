@@ -1,0 +1,10 @@
+2025-12-27 11:44:55,865 - INFO - Starting staging ingestion
+2025-12-27 11:44:55,879 - INFO - Truncated staging.customers
+2025-12-27 11:44:55,881 - INFO - Truncated staging.products
+2025-12-27 11:44:55,888 - INFO - Truncated staging.transactions
+2025-12-27 11:44:55,889 - INFO - Truncated staging.transaction_items
+2025-12-27 11:44:55,934 - INFO - Loaded 1000 rows into staging.customers
+2025-12-27 11:44:56,013 - INFO - Loaded 500 rows into staging.products
+2025-12-27 11:44:56,127 - INFO - Loaded 10000 rows into staging.transactions
+2025-12-27 11:44:56,293 - INFO - Loaded 30006 rows into staging.transaction_items
+2025-12-27 11:44:56,441 - INFO - Staging ingestion committed successfully

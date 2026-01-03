@@ -1,0 +1,9 @@
+2025-12-28 15:07:07,081 [INFO] STARTING STEP: data_generation
+2025-12-28 15:07:13,153 [INFO] COMPLETED STEP: data_generation in 6.07s
+2025-12-28 15:07:13,155 [INFO] STARTING STEP: data_ingestion
+2025-12-28 15:07:15,057 [INFO] COMPLETED STEP: data_ingestion in 1.9s
+2025-12-28 15:07:15,059 [INFO] STARTING STEP: data_quality
+2025-12-28 15:07:15,649 [ERROR] data_quality failed (attempt 1): Command '['python', 'scripts/quality_checks/validate_data.py']' returned non-zero exit status 1.
+2025-12-28 15:07:17,303 [ERROR] data_quality failed (attempt 2): Command '['python', 'scripts/quality_checks/validate_data.py']' returned non-zero exit status 1.
+2025-12-28 15:07:19,891 [ERROR] data_quality failed (attempt 3): Command '['python', 'scripts/quality_checks/validate_data.py']' returned non-zero exit status 1.
+2025-12-28 15:07:19,901 [INFO] PIPELINE EXECUTION FINISHED

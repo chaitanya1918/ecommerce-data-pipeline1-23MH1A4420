@@ -1,0 +1,11 @@
+2025-12-27 10:28:58,238 [INFO] STARTING STEP: data_generation
+2025-12-27 10:29:07,554 [INFO] COMPLETED STEP: data_generation in 9.32s
+2025-12-27 10:29:07,555 [INFO] STARTING STEP: data_ingestion
+2025-12-27 10:29:10,935 [INFO] COMPLETED STEP: data_ingestion in 3.38s
+2025-12-27 10:29:10,935 [INFO] STARTING STEP: data_quality
+2025-12-27 10:29:11,951 [INFO] COMPLETED STEP: data_quality in 1.02s
+2025-12-27 10:29:11,951 [INFO] STARTING STEP: staging_to_production
+2025-12-27 10:29:15,297 [ERROR] staging_to_production failed (attempt 1): Command '['python', 'scripts/transformation/staging_to_production.py']' returned non-zero exit status 1.
+2025-12-27 10:29:19,168 [ERROR] staging_to_production failed (attempt 2): Command '['python', 'scripts/transformation/staging_to_production.py']' returned non-zero exit status 1.
+2025-12-27 10:29:24,109 [ERROR] staging_to_production failed (attempt 3): Command '['python', 'scripts/transformation/staging_to_production.py']' returned non-zero exit status 1.
+2025-12-27 10:29:24,115 [INFO] PIPELINE EXECUTION FINISHED

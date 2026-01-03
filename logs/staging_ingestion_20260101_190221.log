@@ -1,0 +1,14 @@
+2026-01-01 19:02:21,637 - INFO - Connected to database
+2026-01-01 19:02:21,674 - INFO - Truncated staging.customers
+2026-01-01 19:02:21,682 - INFO - Truncated staging.products
+2026-01-01 19:02:21,691 - INFO - Truncated staging.transactions
+2026-01-01 19:02:21,693 - INFO - Truncated staging.transaction_items
+2026-01-01 19:02:21,720 - INFO - Loading staging.customers from customers.csv
+2026-01-01 19:02:21,748 - INFO - Loaded 1000 rows into staging.customers
+2026-01-01 19:02:21,755 - INFO - Loading staging.products from products.csv
+2026-01-01 19:02:21,760 - INFO - Loaded 500 rows into staging.products
+2026-01-01 19:02:21,782 - INFO - Loading staging.transactions from transactions.csv
+2026-01-01 19:02:21,830 - INFO - Loaded 10000 rows into staging.transactions
+2026-01-01 19:02:21,869 - INFO - Loading staging.transaction_items from transaction_items.csv
+2026-01-01 19:02:21,938 - INFO - Loaded 30108 rows into staging.transaction_items
+2026-01-01 19:02:21,963 - INFO - Staging ingestion committed

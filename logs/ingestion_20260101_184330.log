@@ -1,0 +1,6 @@
+2026-01-01 18:43:30,350 - ERROR - Transaction rolled back due to error: (psycopg2.OperationalError) could not translate host name "198@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-01 18:43:30,355 - INFO - Ingestion complete. Total time: 0.17s
+2026-01-01 18:43:30,356 - INFO - Report written to data/staging/ingestion_summary.json
+2026-01-01 18:43:30,356 - INFO - Overall status: failure

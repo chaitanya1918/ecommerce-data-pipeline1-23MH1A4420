@@ -1,0 +1,13 @@
+2026-01-01 18:49:08,868 - INFO - Connected to database
+2026-01-01 18:49:08,900 - INFO - Truncated staging.customers
+2026-01-01 18:49:08,904 - INFO - Truncated staging.products
+2026-01-01 18:49:08,905 - INFO - Truncated staging.transactions
+2026-01-01 18:49:08,907 - INFO - Truncated staging.transaction_items
+2026-01-01 18:49:08,937 - INFO - Loading staging.customers from customers.csv
+2026-01-01 18:49:08,976 - INFO - Loaded 1000 rows into staging.customers
+2026-01-01 18:49:08,984 - INFO - Loading staging.products from products.csv
+2026-01-01 18:49:08,994 - INFO - Loaded 500 rows into staging.products
+2026-01-01 18:49:09,025 - INFO - Loading staging.transactions from transactions.csv
+2026-01-01 18:49:09,040 - ERROR - Ingestion failed: extra data after last expected column
+CONTEXT:  COPY transactions, line 2: "TXN00001,CUST0034,2026-01-01,11:15:11,Net Banking,"55555 Dougherty Knoll, New Jessica, GU 08551",658..."
+

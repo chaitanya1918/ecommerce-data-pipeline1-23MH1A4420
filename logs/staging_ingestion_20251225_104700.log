@@ -1,0 +1,2 @@
+2025-12-25 10:47:00,723 - ERROR - Ingestion failed: invalid integer value "${DB_PORT}" for connection option "port"
+

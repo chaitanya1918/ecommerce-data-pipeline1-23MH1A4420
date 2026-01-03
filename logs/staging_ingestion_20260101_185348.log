@@ -1,0 +1,15 @@
+2026-01-01 18:53:48,603 - INFO - Connected to database
+2026-01-01 18:53:48,613 - INFO - Truncated staging.customers
+2026-01-01 18:53:48,616 - INFO - Truncated staging.products
+2026-01-01 18:53:48,620 - INFO - Truncated staging.transactions
+2026-01-01 18:53:48,622 - INFO - Truncated staging.transaction_items
+2026-01-01 18:53:48,650 - INFO - Loading staging.customers from customers.csv
+2026-01-01 18:53:48,678 - INFO - Loaded 1000 rows into staging.customers
+2026-01-01 18:53:48,684 - INFO - Loading staging.products from products.csv
+2026-01-01 18:53:48,689 - INFO - Loaded 500 rows into staging.products
+2026-01-01 18:53:48,713 - INFO - Loading staging.transactions from transactions.csv
+2026-01-01 18:53:48,759 - INFO - Loaded 10000 rows into staging.transactions
+2026-01-01 18:53:48,807 - INFO - Loading staging.transaction_items from transaction_items.csv
+2026-01-01 18:53:48,831 - ERROR - Ingestion failed: extra data after last expected column
+CONTEXT:  COPY transaction_items, line 2: "ITEM00001,TXN00001,PROD0228,3,2469.79,0,7409.37"
+

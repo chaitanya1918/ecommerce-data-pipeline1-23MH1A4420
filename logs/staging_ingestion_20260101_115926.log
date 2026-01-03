@@ -1,0 +1,8 @@
+2026-01-01 11:59:26,552 - INFO - Starting staging ingestion
+2026-01-01 11:59:26,601 - INFO - Truncated staging.customers
+2026-01-01 11:59:26,604 - INFO - Truncated staging.products
+2026-01-01 11:59:26,625 - INFO - Truncated staging.transactions
+2026-01-01 11:59:26,626 - INFO - Truncated staging.transaction_items
+2026-01-01 11:59:26,680 - ERROR - Ingestion failed: missing data for column "loaded_at"
+CONTEXT:  COPY customers, line 2: "CUST0001,Alicia,Morris,andersonheather@example.org,(486)532-1594x27007,2025-05-28,New Johnburgh,Texa..."
+

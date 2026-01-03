@@ -1,0 +1,3 @@
+2025-12-28 14:14:09,783 - INFO - Starting staging ingestion
+2025-12-28 14:14:09,789 - ERROR - Ingestion failed: schema "staging" does not exist
+

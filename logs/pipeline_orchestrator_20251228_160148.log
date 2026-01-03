@@ -1,0 +1,13 @@
+2025-12-28 16:01:49,010 [INFO] STARTING STEP: data_generation
+2025-12-28 16:01:53,498 [INFO] COMPLETED STEP: data_generation in 4.49s
+2025-12-28 16:01:53,499 [INFO] STARTING STEP: data_ingestion
+2025-12-28 16:01:55,241 [INFO] COMPLETED STEP: data_ingestion in 1.74s
+2025-12-28 16:01:55,243 [INFO] STARTING STEP: data_quality
+2025-12-28 16:01:55,758 [INFO] COMPLETED STEP: data_quality in 0.52s
+2025-12-28 16:01:55,759 [INFO] STARTING STEP: staging_to_production
+2025-12-28 16:01:56,411 [INFO] COMPLETED STEP: staging_to_production in 0.65s
+2025-12-28 16:01:56,412 [INFO] STARTING STEP: warehouse_load
+2025-12-28 16:01:56,954 [ERROR] warehouse_load failed (attempt 1): Command '['python', 'scripts/transformation/load_warehouse.py']' returned non-zero exit status 1.
+2025-12-28 16:01:58,568 [ERROR] warehouse_load failed (attempt 2): Command '['python', 'scripts/transformation/load_warehouse.py']' returned non-zero exit status 1.
+2025-12-28 16:02:01,234 [ERROR] warehouse_load failed (attempt 3): Command '['python', 'scripts/transformation/load_warehouse.py']' returned non-zero exit status 1.
+2025-12-28 16:02:01,376 [INFO] PIPELINE EXECUTION FINISHED

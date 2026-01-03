@@ -1,0 +1,8 @@
+2025-12-28 14:56:25,072 - INFO - Starting staging ingestion
+2025-12-28 14:56:25,086 - INFO - Truncated staging.customers
+2025-12-28 14:56:25,093 - INFO - Truncated staging.products
+2025-12-28 14:56:25,098 - INFO - Truncated staging.transactions
+2025-12-28 14:56:25,103 - INFO - Truncated staging.transaction_items
+2025-12-28 14:56:25,138 - ERROR - Ingestion failed: extra data after last expected column
+CONTEXT:  COPY customers, line 2: "CUST0001,Jessica,Robles,melody77@example.net,884.741.1052,2023-07-07,New Angelaborough,South Dakota,..."
+

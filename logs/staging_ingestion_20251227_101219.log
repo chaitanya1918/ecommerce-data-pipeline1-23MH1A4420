@@ -1,0 +1,2 @@
+2025-12-27 10:12:19,410 - ERROR - Ingestion failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+

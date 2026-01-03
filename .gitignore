@@ -1,6 +1,8 @@
-__pycache__/
-*.pyc
-.env
-logs/
-data/processed/
-data/staging/
+# Ignore raw CSV files
+data/raw/*.csv
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/processed/.gitkeep
+!data/quality/.gitkeep

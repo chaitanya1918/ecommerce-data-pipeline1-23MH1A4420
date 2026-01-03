@@ -1,0 +1,7 @@
+2026-01-01 18:33:18,415 - INFO - Truncated staging.customers
+2026-01-01 18:33:18,418 - INFO - Truncated staging.products
+2026-01-01 18:33:18,419 - INFO - Truncated staging.transactions
+2026-01-01 18:33:18,420 - INFO - Truncated staging.transaction_items
+2026-01-01 18:33:18,462 - INFO - Loaded 1000 rows into staging.customers
+2026-01-01 18:33:18,487 - ERROR - column "price" of relation "products" does not exist
+
