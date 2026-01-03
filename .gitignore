@@ -6,3 +6,5 @@ data/raw/*.csv
 !data/staging/.gitkeep
 !data/processed/.gitkeep
 !data/quality/.gitkeep
+logs/*
+!logs/.gitkeep
