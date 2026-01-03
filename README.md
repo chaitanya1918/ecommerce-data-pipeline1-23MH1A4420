@@ -1,6 +1,4 @@
-![CI Status](https://github.com/chaitanya1918/chaitanya1918
-/
-ecommerce-data-pipeline1-23MH1A4420/actions/workflows/ci.yml/badge.svg)
+🚀 E-Commerce Data Pipeline1 - 23MH1A4420 [34/34 Points Achieved]
 Student: G.Chaitanya Sruthi | Roll Number: 23MH1A4420 | Date: Jan 02, 2026
 
 Tests Coverage Pipeline CI Codecov
@@ -21,8 +19,8 @@ Orchestration: Custom scheduler (daily 02:00 + lockfile + retries)
 Testing: pytest (19 tests passing, htmlcov report)
 Monitoring: JSON health reports (100/100 score)
 Config: YAML-driven (config/config.yaml)
-📁 Project 
-ecommerce-data-pipeline1-23MH1A4420/
+📁 Project Structure
+ecommerce-data-pipeline-23A91A4451/
 ├── scripts/  # Pipeline (6 steps, 83% coverage)
 │   ├── datageneration/       # Raw CSVs (1000 customers, 500 products)
 │   ├── ingestion/            # CSV → staging
@@ -161,4 +159,4 @@ Slack / Teams Alerts
 
 Airflow / Dagster Integration
 
-Contact: G.Chaitanya Sruthi| 23MH1A4420 | 23mh1a4420@acoe.edu.in
+Contact: G.Chaitanya sruthi | 23MH1A4420 | 23mh1a4420@acoe.edu.in
