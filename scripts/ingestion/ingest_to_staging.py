@@ -1,157 +1,164 @@
-import os
-import json
-import time
-import logging
-from datetime import datetime
-import pandas as pd
 import psycopg2
+import csv
+import os
 import yaml
 
-# --------------------------------------------------
-# Load configuration
-# --------------------------------------------------
-with open("config/config.yaml", "r") as f:
-    config = yaml.safe_load(f)
+# -------------------------------
+# Load DB config
+# -------------------------------
+with open("/app/config/config.yaml") as f:
+    DB = yaml.safe_load(f)["database"]
 
-DB_CONFIG = config["database"]
+DATA_DIR = "/app/data/raw"
 
-RAW_DATA_PATH = "data/raw"
-SUMMARY_PATH = "data/staging"
-LOG_PATH = "logs"
 
-os.makedirs(SUMMARY_PATH, exist_ok=True)
-os.makedirs(LOG_PATH, exist_ok=True)
-
-# --------------------------------------------------
-# Logging configuration
-# --------------------------------------------------
-log_file = f"{LOG_PATH}/staging_ingestion_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
-
-logging.basicConfig(
-    filename=log_file,
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
-# --------------------------------------------------
-# Database connection
-# --------------------------------------------------
-def get_connection():
+# -------------------------------
+# DB Connection
+# -------------------------------
+def get_conn():
     return psycopg2.connect(
-        host=os.getenv("DB_HOST", DB_CONFIG["host"]),
-        port=os.getenv("DB_PORT", DB_CONFIG["port"]),
-        dbname=os.getenv("DB_NAME", DB_CONFIG["name"]),
-        user=os.getenv("DB_USER", DB_CONFIG["user"]),
-        password=os.getenv("DB_PASSWORD", DB_CONFIG["password"])
+        host=DB["host"],        # postgres (docker service name)
+        port=DB["port"],
+        dbname=DB["name"],
+        user=DB["user"],
+        password=DB["password"]
     )
 
-# --------------------------------------------------
-# Bulk load using COPY
-# --------------------------------------------------
-def copy_csv(cursor, table_name, file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        cursor.copy_expert(
-            sql=f"COPY {table_name} FROM STDIN WITH CSV HEADER",
-            file=f
-        )
 
-# --------------------------------------------------
-# Validation function
-# --------------------------------------------------
-def validate_staging_load(cursor, table, csv_rows):
-    cursor.execute(f"SELECT COUNT(*) FROM {table}")
-    db_rows = cursor.fetchone()[0]
-    return db_rows == csv_rows, db_rows
+# -------------------------------
+# Ingestion Logic
+# -------------------------------
+def ingest():
+    conn = get_conn()
+    cur = conn.cursor()
 
-# --------------------------------------------------
-# Main ingestion
-# --------------------------------------------------
-def ingest_to_staging():
-    start_time = time.time()
-    summary = {
-        "ingestion_timestamp": datetime.utcnow().isoformat(),
-        "tables_loaded": {},
-        "total_execution_time_seconds": 0
-    }
+    print("Starting staging ingestion")
 
-    tables = {
-        "staging.customers": "customers.csv",
-        "staging.products": "products.csv",
-        "staging.transactions": "transactions.csv",
-        "staging.transaction_items": "transaction_items.csv"
-    }
+    # ---------- CLEAN TABLES ----------
+    cur.execute("TRUNCATE staging.transaction_items")
+    cur.execute("TRUNCATE staging.transactions")
+    cur.execute("TRUNCATE staging.products")
+    cur.execute("TRUNCATE staging.customers")
+    conn.commit()
 
-    conn = None
+    # ---------- CUSTOMERS ----------
+    print("Loading staging.customers (1000 rows)")
+    with open(f"{DATA_DIR}/customers.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = [
+            (
+                r["customer_id"],
+                r["first_name"],
+                r["last_name"],
+                r["email"],
+                r["phone"],
+                r["registration_date"],
+                r["city"],
+                r["state"],
+                r["country"],
+                r["age_group"]
+            )
+            for r in reader
+        ]
 
-    try:
-        conn = get_connection()
-        cursor = conn.cursor()
-        conn.autocommit = False  # BEGIN TRANSACTION
-
-        logging.info("Starting staging ingestion")
-
-        # Truncate tables first (idempotent)
-        for table in tables.keys():
-            cursor.execute(f"TRUNCATE TABLE {table}")
-            logging.info(f"Truncated {table}")
-
-        # Load data
-        for table, file_name in tables.items():
-            file_path = os.path.join(RAW_DATA_PATH, file_name)
-
-            if not os.path.exists(file_path):
-                raise FileNotFoundError(f"{file_name} not found")
-
-            df = pd.read_csv(file_path)
-            rows = len(df)
-
-            copy_csv(cursor, table, file_path)
-
-            valid, db_rows = validate_staging_load(cursor, table, rows)
-
-            if not valid:
-                raise ValueError(
-                    f"Row count mismatch for {table}: CSV={rows}, DB={db_rows}"
-                )
-
-            summary["tables_loaded"][table] = {
-                "rows_loaded": db_rows,
-                "status": "success"
-            }
-
-            logging.info(f"Loaded {db_rows} rows into {table}")
-
-        conn.commit()
-        logging.info("Staging ingestion committed successfully")
-
-    except Exception as e:
-        if conn:
-            conn.rollback()
-        logging.error(f"Ingestion failed: {str(e)}")
-
-        for table in tables.keys():
-            if table not in summary["tables_loaded"]:
-                summary["tables_loaded"][table] = {
-                    "rows_loaded": 0,
-                    "status": "failed",
-                    "error_message": str(e)
-                }
-
-    finally:
-        if conn:
-            conn.close()
-
-    summary["total_execution_time_seconds"] = round(
-        time.time() - start_time, 2
+    cur.executemany(
+        """
+        INSERT INTO staging.customers
+        (customer_id, first_name, last_name, email, phone,
+         registration_date, city, state, country, age_group)
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        """,
+        rows
     )
 
-    with open(f"{SUMMARY_PATH}/ingestion_summary.json", "w") as f:
-        json.dump(summary, f, indent=4)
+    # ---------- PRODUCTS ----------
+    print("Loading staging.products (500 rows)")
+    with open(f"{DATA_DIR}/products.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = [
+            (
+                r["product_id"],
+                r["product_name"],
+                r["category"],
+                r["sub_category"],
+                float(r["cost_price"]),
+                float(r["selling_price"]),
+                r["supplier_name"],
+                int(r["stock_quantity"]),
+                r["supplier_id"]
+            )
+            for r in reader
+        ]
 
-    print("Staging ingestion completed. Check logs and summary.")
+    cur.executemany(
+        """
+        INSERT INTO staging.products
+        (product_id, product_name, category, subcategory,
+         cost_price, selling_price, supplier_name,
+         stock_quantity, supplier_id)
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        """,
+        rows
+    )
 
-# --------------------------------------------------
+    # ---------- TRANSACTIONS ----------
+    print("Loading staging.transactions (10000 rows)")
+    with open(f"{DATA_DIR}/transactions.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = [
+            (
+                r["transaction_id"],
+                r["customer_id"],
+                r["transaction_date"],
+                r["payment_method"]
+            )
+            for r in reader
+        ]
+
+    cur.executemany(
+        """
+        INSERT INTO staging.transactions
+        (transaction_id, customer_id, transaction_date, payment_method)
+        VALUES (%s,%s,%s,%s)
+        """,
+        rows
+    )
+
+    # ---------- TRANSACTION ITEMS ----------
+    print("Loading staging.transaction_items (30000+ rows)")
+    with open(f"{DATA_DIR}/transaction_items.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = [
+            (
+                r["item_id"],
+                r["transaction_id"],
+                r["product_id"],
+                int(r["quantity"]),
+                float(r["unit_price"]),
+                float(r["line_total"])
+            )
+            for r in reader
+        ]
+
+    cur.executemany(
+        """
+        INSERT INTO staging.transaction_items
+        (item_id, transaction_id, product_id,
+         quantity, unit_price, line_total)
+        VALUES (%s,%s,%s,%s,%s,%s)
+        """,
+        rows
+    )
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    print("STAGING INGESTION COMPLETED SUCCESSFULLY")
+
+
+# -------------------------------
 # Run
-# --------------------------------------------------
+# -------------------------------
 if __name__ == "__main__":
-    ingest_to_staging()
+    ingest()

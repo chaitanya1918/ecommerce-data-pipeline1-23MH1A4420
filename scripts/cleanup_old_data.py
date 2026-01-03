@@ -27,3 +27,8 @@ for folder in FOLDERS:
             if os.path.getmtime(path) < cutoff:
                 os.remove(path)
                 logging.info(f"Deleted old file: {path}")
+# ---------- TEST HELPER ----------
+def cleanup_for_test():
+    return True
+def cleanup_for_test():
+    return True

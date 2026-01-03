@@ -2,11 +2,11 @@
 # DATABASE CONFIGURATION
 # ============================
 database:
-  host: localhost
+  host: postgres
   port: 5432
   name: ecommerce_db
   user: admin
-  password: Chaituram@198
+  password: admin
 
 
 

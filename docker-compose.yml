@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: ecommerce_db
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: admin
     ports:
       - "5432:5432"
     volumes:
@@ -17,15 +17,20 @@ services:
       retries: 5
 
   pipeline:
-    image: python:3.11
+    build:
+      context: .
+      dockerfile: docker/Dockerfile   # 🔥 THIS LINE IS CRITICAL
     container_name: ecommerce_pipeline
-    working_dir: /app
-    volumes:
-      - ./:/app   # 🔥 THIS LINE IS THE FIX
     depends_on:
       postgres:
         condition: service_healthy
-    command: tail -f /dev/null
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: ecommerce_db
+      DB_USER: admin
+      DB_PASSWORD: admin
+    command: python scripts/pipeline_orchestrator.py
 
 volumes:
   postgres_data:

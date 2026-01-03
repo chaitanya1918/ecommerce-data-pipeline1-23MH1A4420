@@ -1,86 +1,52 @@
 import psycopg2
 import os
 
-def get_conn():
-    return psycopg2.connect(
-        host=os.environ.get("DB_HOST", "localhost"),
-        port=os.environ.get("DB_PORT", 5432),
-        database=os.environ.get("DB_NAME", "ecommerce_db"),
-        user=os.environ.get("DB_USER", "admin"),
-        password=os.environ.get("DB_PASSWORD", "password")
-    )
-
-def load_dim_customers():
-    conn = get_conn()
-    cur = conn.cursor()
-
-    cur.execute("""
-        INSERT INTO warehouse.dim_customers (
-            customer_id,
-            full_name,
-            email,
-            city,
-            state,
-            country,
-            age_group,
-            effective_date,
-            is_current
-        )
-        SELECT
-            customer_id,
-            first_name || ' ' || last_name,
-            email,
-            city,
-            state,
-            country,
-            age_group,
-            CURRENT_DATE,
-            TRUE
-        FROM production.customers;
-    """)
-
-    conn.commit()
-    cur.close()
-    conn.close()
-    print("Warehouse dim_customers loaded successfully")
-
-def load_dim_products():
-    conn = get_conn()
-    cur = conn.cursor()
-
-    cur.execute("""
-        INSERT INTO warehouse.dim_products (
-            product_id,
-            product_name,
-            category,
-            sub_category,
-            price_range,
-            effective_date,
-            is_current
-        )
-        SELECT
-            product_id,
-            product_name,
-            category,
-            sub_category,
-            CASE
-                WHEN price < 50 THEN 'Budget'
-                WHEN price < 200 THEN 'Mid-range'
-                ELSE 'Premium'
-            END,
-            CURRENT_DATE,
-            TRUE
-        FROM production.products;
-    """)
-
-    conn.commit()
-    cur.close()
-    conn.close()
-    print("Warehouse dim_products loaded successfully")
-
 def main():
-    load_dim_customers()
-    load_dim_products()
+    conn = psycopg2.connect(
+        host=os.getenv("DB_HOST", "localhost"),
+        dbname=os.getenv("DB_NAME", "ecommerce_db"),
+        user=os.getenv("DB_USER", "admin"),
+        password=os.getenv("DB_PASSWORD", "password"),
+        port=os.getenv("DB_PORT", "5432")
+    )
+    cur = conn.cursor()
+
+    print("Loading warehouse.fact_sales...")
+
+    cur.execute("TRUNCATE warehouse.fact_sales;")
+cur.execute("""
+    INSERT INTO warehouse.fact_sales (
+        date_key,
+        customer_key,
+        product_key,
+        payment_key,
+        quantity,
+        total_amount
+    )
+    SELECT
+        t.transaction_date::date,
+        dc.customer_key,
+        dp.product_key,
+        dpm.payment_key,
+        ti.quantity,
+        ti.quantity * ti.unit_price
+    FROM production.transactions t
+    JOIN production.transaction_items ti
+        ON t.transaction_id = ti.transaction_id
+    JOIN production.customers pc
+        ON t.customer_id = pc.customer_id
+    JOIN warehouse.dim_customers dc
+        ON pc.email = dc.email
+    JOIN warehouse.dim_products dp
+        ON ti.product_id = dp.product_id
+    JOIN warehouse.dim_payment_method dpm
+        ON t.payment_method = dpm.payment_method;
+""")
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    print("warehouse.fact_sales loaded successfully")
 
 if __name__ == "__main__":
     main()
